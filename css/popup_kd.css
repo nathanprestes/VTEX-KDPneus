@@ -1,0 +1,169 @@
+body.pop-pagamento, body.pop-foto {
+    background: none repeat scroll 0 0 transparent !important;
+    border: 5px solid #272a7d;
+    height: auto;
+    margin: 0;
+    position: relative;
+    width: auto;
+}
+body.pop-pagamento div.header h1 a, body.pop-foto div.header h1 a {
+    background: url("/arquivos/logo.jpg") repeat scroll 0 0 transparent;
+    display: block;
+    font-size: 0;
+    height: 56px;
+    line-height: 0;
+    margin-left: 17px;
+    text-indent: -9999px;
+    width: 205px;
+}
+body.pop-pagamento div.header h2, body.pop-foto div.header h2 {
+    display: none;
+}
+body.pop-pagamento div.close a, body.pop-foto div.close a {
+    background: url("/arquivos/bt-fechar-peq.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 34px;
+    line-height: 0;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    top: 10px;
+    width: 64px;
+}
+body.pop-pagamento div.content div.cartao h3, body.pop-foto div.content div.cartao h3 {
+    border-top: 1px solid #DDDDDD;
+    color: #787878;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0 15px 4px;
+    padding-top: 7px;
+}
+body.pop-pagamento div.card-flag img, body.pop-foto div.card-flag img {
+    width: 45px;
+}
+body.pop-pagamento div.card-flag select.mudaCartao, body.pop-foto div.card-flag select.mudaCartao {
+    left: 20px;
+    position: relative;
+    top: -10px;
+}
+body.pop-pagamento div.content div.cartao table, body.pop-foto div.content div.cartao table {
+    border-collapse: collapse;
+    margin-left: 2px;
+    width: 399px;
+}
+body.pop-pagamento div.content div.cartao fieldset, body.pop-foto div.content div.cartao fieldset {
+    border: 0 none;
+    font-family: arial;
+}
+body.pop-pagamento div.content div.cartao fieldset legend, body.pop-foto div.content div.cartao fieldset legend {
+    display: none;
+}
+body.pop-pagamento div.content div.cartao fieldset table th, body.pop-foto div.content div.cartao fieldset table th {
+    background: url("/arquivos/bg-th-poppagamento.jpg") repeat-x scroll 0 0 transparent;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-top: 1px solid #DFDFDF;
+    font-size: 13px;
+    font-weight: bold;
+}
+body.pop-pagamento div.content div.cartao fieldset table td, body.pop-foto div.content div.cartao fieldset table td {
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
+    border-top: 1px solid #DFDFDF;
+    color: #A0A0A0;
+    font-size: 12px;
+    text-align: center;
+    width: 50%;
+}
+body.pop-pagamento div.content div.cartao fieldset table tr, body.pop-foto div.content div.cartao fieldset table tr {
+    border-bottom: 1px solid #DFDFDF;
+}
+body.pop-pagamento div.content hr, body.pop-foto div.content hr {
+    display: none;
+}
+body.pop-pagamento div.content div.boleto h3, body.pop-foto div.content div.boleto h3 {
+    color: #787878;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0 15px;
+}
+body.pop-pagamento div.content div.boleto div.wrapper img, body.pop-foto div.content div.boleto div.wrapper img {
+    float: left;
+}
+body.pop-pagamento div.content div.boleto div.wrapper p.txt, body.pop-foto div.content div.boleto div.wrapper p.txt {
+    color: #787878;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    padding: 12px 0 0;
+}
+body.pop-pagamento div.content div.boleto div.wrapper p.valor, body.pop-foto div.content div.boleto div.wrapper p.valor {
+    color: #787878;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+body.pop-pagamento div.content div.boleto div.wrapper p.valor em, body.pop-foto div.content div.boleto div.wrapper p.valor em {
+    font-style: normal;
+}
+body.pop-pagamento div.footer, body.pop-foto div.footer {
+    display: none;
+}
+body.pop-pagamento div.content div.boleto div.wrapper, body.pop-foto div.content div.boleto div.wrapper {
+    padding-left: 13px;
+}
+body.pop-pagamento .desconto, body.pop-foto .desconto {
+    color: #787878;
+    font-family: arial;
+    font-size: 12px;
+    margin: 0;
+    padding: 3px 0 0;
+}
+body.pop-mensagem .contentWrapper, body.pop-foto .contentWrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 6px solid #E77F42;
+    padding: 10px;
+}
+body.pop-mensagem .contentWrapper .header, body.pop-foto .contentWrapper .header {
+    border-bottom: 1px solid #DDDDDD;
+    /*height: 30px;*/
+}
+body.pop-mensagem .contentWrapper h1{height: 24px;width: 87px;position: absolute;}
+body.pop-foto .contentWrapper h1 {
+    display: block;
+    font-size: 0;
+    left: 20px;
+    line-height: 0;
+    text-indent: -9999em;
+    top: 20px;
+}
+
+body.pop-mensagem .contentWrapper h2, body.pop-foto .contentWrapper h2 {
+    display: none;
+}
+body.pop-mensagem .contentWrapper .content p, body.pop-foto .contentWrapper .content p {
+    clear: both;
+    color: #787878;
+    font-family: arial;
+    font-size: 12px;
+}
+body.pop-mensagem .contentWrapper .footer, body.pop-foto .contentWrapper .footer {
+    display: none;
+}
+body.pop-mensagem .contentWrapper .header .close a, body.pop-foto .contentWrapper .header .close a {
+    background: url("/arquivos/bt-fechar-peq.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 34px;
+    line-height: 0;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    top: 10px;
+    width: 64px;
+}

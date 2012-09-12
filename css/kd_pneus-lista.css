@@ -1,0 +1,91 @@
+
+
+.listas #global { margin: 20px auto;;}
+
+.listas #content {margin: 0 0 0 10px;}
+.listas #conteudo { }
+.listas #conteudo h2 {color: #000000; font-size: 26px; font-weight: bold; margin: 0 0 20px 42px; width: 100%;}
+
+.giftlistsearchul, .giftlistul {}
+.giftlistsearchul li, .giftlistul li {float: left; width: 450px;}
+.giftlistsearchul span, .giftlistul span {float: left;  text-align: right; width: 125px; margin: 5px 0 0 0;}
+.giftlistsearchul input, .giftlistul input {border: 1px dotted #666666; float: left; height: 25px; margin: 0 0 5px 10px; width: 200px; font-size: 12pt;}
+.giftlistul select {margin: 0 0 5px 10px; height: 30px;}
+.giftlistul textarea {margin: 0 0 5px 10px; height: 85px; width: 201px;}
+
+.giftlistsearchfind { width: 40%; float: right;}
+.giftlistsearchfind input {color: #1C2088; cursor: pointer; float: right;    height: 41px;  margin: 0 108px 0 0; width: 65px;}
+
+.address-list {}
+.address-list legend {color: #666666; font-size: 10pt; font-weight: bold; margin: 5px 0;}
+.address-list li { float: left;}
+.address-list p {color: #666666; font-size: 14px; font-style: normal; text-align: center;}
+
+#giftlistupload {background: url("/arquivos/btn_enviar.jpg") repeat scroll 0 0 transparent; border: medium none; clear: both; color: #FFFFFF; cursor: pointer; float: left; font-size: 0; font-weight: bold; height: 43px; margin: 0 0 20px 133px; width: 85px;}
+#giftlistsave {background: url("/arquivos/btn_salvar.jpg") repeat scroll 0 0 transparent; border: medium none; color: #FFFFFF; cursor: pointer; float: right; font-size: 0; font-weight: bold; height: 29px; width: 149px;}
+
+.listas table { width: 100%; float: left;}
+.listas th {background: none repeat scroll 0 0 #F1F1F1; font-size: 12px; font-weight: normal; padding: 5px;}
+.listas td {color: #666666; font-size: 12px; text-align: center;}
+.listas td a {color: #666; font-size: 12px;text-decoration: underline;}
+.listas td a:hover {text-decoration: none;}
+
+.giftlistdetails {float: left; margin: 20px 0; width: 100%;}
+.giftlistdetails li {border-bottom: 1px solid #E2E2E2; clear: both; float: left; margin: 0 0 10px; min-width: 230px; padding: 0 0 5px;}
+.giftlistdetails li span {float: left; margin: 0 10px 0 0;}
+.giftlistdetails li .titulo {font-weight: bold; color: #777;}
+
+.giftlistdetails { float: left; width: 100%;}
+.giftlistsku-action {float: left; margin: 10px 0;}
+.giftlistsku-action li { margin: 0 0 5px 0}
+.giftlistsku {float: left;}
+.giftlistsku p { float: left; width: 100%}
+
+p.message {width: 230px; float: left;}
+.info {float: left; width: 230px;}
+
+.listas .prateleira { float: right; width: 715px;}
+.listas ul { width: 100%;}
+.listas li { float: left;}
+
+.giftlistdetails {} 
+.giftlistsku-action {}
+.giftlistsku-action a {margin: 0 15px 0 0; text-decoration: underline;}
+.giftlistsku-action a:hover {text-decoration: none;}   
+.giftlist-credit{ margin: 5px 0;} 
+.giftlist-debit {float: left; width: 230px !important; margin: 0 0 50px 0;}
+
+.giftlist-remove-sku {}
+.giftlist-remove-sku .help { display: none;}
+.giftlist-remove-sku #giftlistremovesku {background: url("/arquivos/excluir.jpg") repeat scroll 0 0 transparent; border: medium none; color: #FFFFFF; cursor: pointer; font-size: 0; font-weight: bold; height: 41px; margin: 20px 0 10px 10px; width: 178px; float:right;}
+
+#TB_window { z-index: 2147483647 !important;}
+#TB_window p {color: #000000; font-size: 12pt; font-weight: bold;}
+#TB_window fieldset {font-size: 12pt; margin: 10px 0; width: 100%;}
+#TB_window label { float: left;}
+#TB_window input {border: 1px solid #E2E2E2; float: left; font-size: 10pt; height: 25px; margin: 0 0 5px;width: 200px;}
+#TB_window div { float: left; width: 100%}
+#TB_window #btnEnviar {background: none repeat scroll 0 0 #B80000; color: #FFFFFF; text-transform: uppercase; width: 75px;}
+#TB_window #btnCancelar {margin: 0 10px 0 0; width: 85px;}
+
+
+.abas {display: none;}
+
+
+#sideBar h2 {background: none repeat scroll 0 0 #F1F1F1; color: #1C2088; float: left; font: bold 13px Arial,Helvetica,sans-serif; margin-bottom: 10px; padding: 5px; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7); width: 170px;}
+
+#sideBar li {float: left; width: 100%;}
+
+fieldset {border: none;}
+
+.giftlist li { margin: 0 0 10px 0 !important; color: #666;}
+
+fieldset input {border: 1px dotted #666666; float: left; height: 25px; width: 250px;}
+
+.giftlist-action {float: left; margin: 0 !important;}
+
+.giftlistdetails li {margin: 0 0 5px 0 !important;}
+
+.giftlist-action-create a {background: url("/arquivos/bg_criar_lista.jpg") repeat scroll 0 0 transparent; color: #FFFFFF; display: block; font-weight: bold; padding: 5px 26px 5px 48px;}
+
+input#giftlistphoto {border: medium none; width: 131px;}
