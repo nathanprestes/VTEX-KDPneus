@@ -70,7 +70,7 @@ li.ui-menu-item img {
 #top-bar ul {
 	float:left;
 	font-size:8pt;
-	/*width: 440px;*/
+	width: 440px;
 }
 #top-bar li {
 	display: inline;
@@ -377,8 +377,6 @@ li.ui-menu-item img {
 	float: left;
 	font-size: 8pt;
 	margin: 0 0 3px;
-	display:block;
-	width:130px;
 }
 #col_esq a:hover {
 	text-decoration:underline;
@@ -416,8 +414,7 @@ li.ui-menu-item img {
 }
 #copy {
 	float: left;
-	/*margin: 45px 0 0;*/
-	margin: 55px 0 0;
+	margin: 45px 0 0;
 	width: 100%;
 }
 #copy p {
@@ -428,9 +425,6 @@ li.ui-menu-item img {
 }
 #copy a {
 	float: right;
-}
-.footer #col_meio a, .footer #col_dir a {
-  float: left;
 }
 /* Fechamento topo e footer */
 
@@ -617,7 +611,7 @@ li.ui-menu-item img {
 }
 .prateleira li:hover {
 	border:1px dotted #eee;
-	background:url("/arquivos/bg_prateleira.jpg") repeat-x scroll top center transparent;
+	background:url("/arquivos/bg_prateleira.jpg") repeat-x scroll center bottom transparent;
 }
 .prateleira li:hover .quickView {
 	display:block;
@@ -897,6 +891,18 @@ body.productQuickView .jqZoomWindow {
 body.productQuickView #left #image {
 	height: 330px;
 }
+#aro14, #aro15, #aro16, #aro17, #aro18, #aro19, #aro20{
+	display:none;
+}
+#aro13 h2, #aro14 h2, #aro15 h2, #aro16 h2, #aro17 h2, #aro18 h2, #aro19 h2, #aro20 h2  {
+	display:none;
+}
+#aro13 .jcarousel-prev, #aro14 .jcarousel-prev, #aro15 .jcarousel-prev, #aro16 .jcarousel-prev {
+	top:-23px !important;
+}
+#aro13 .jcarousel-next, #aro14 .jcarousel-next, #aro15 .jcarousel-next, #aro16 .jcarousel-next {
+	top:-23px !important;
+}
 .brandFilter {
 	display: none;
 }
@@ -926,7 +932,6 @@ body.productQuickView #left #image {
 #global_dicas {
 	background: none repeat scroll 0 0 #d7ecff;
 	padding: 20px 0;
-	z-index:15 !important;
 }
 #dicas {
 	margin:0 auto;
@@ -935,7 +940,6 @@ body.productQuickView #left #image {
 	height:190px;
 	overflow:hidden;
 	position: relative;
-	z-index:15 !important;
 }
 #dicas h2 {
 	background: url("/arquivos/bg_h2.png") no-repeat scroll left center #00294e;
@@ -1409,9 +1413,6 @@ body.productQuickView #left #image {
 	margin: 15px 0 0 0;
 	padding: 15px 0 0 0;
 }
-.stwitter{margin:0 0 0 25px;}
-.sfacebook, .stwitter{margin-top:3px;}
-.sfacebook, .stwitter, .sgoogleplus{float:left;}
 .unavailable-button {
 	border-bottom: 1px dotted #666666;
 	color: red;
@@ -1570,12 +1571,12 @@ body.productQuickView #left #image {
 	margin-bottom:10px;
 }
 
-#selos > div {
-    float: left;
-    margin: 0 5px 0 0;
+#DigiCertClickID_JrIzHlJh {
+	float: left;
+	margin: 0 5px 0 0;
 }
-#selos > div a {
-    display: none !important;
+#DigiCertClickID_JrIzHlJh a {
+	display: none !important;
 }
 #segura_tudo {
 	width:980px;

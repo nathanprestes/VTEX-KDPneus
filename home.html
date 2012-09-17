@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+<title>KD Pneus</title>
+<vtex:metaTags/>
+<link rel="stylesheet" type="text/css" href="~/arquivos/teste-KdPneus.css" />
+<link rel="stylesheet" type="text/css" href="/arquivos/teste-skin.css" />
+
+<script type="text/javascript" src="~/arquivos/menu.js"></script>
+<script type="text/javascript" src="/arquivos/teste-kd-pneus.js"></script>
+<script type="text/javascript" src="/arquivos/sub-marcas.js"></script>
+<script type="text/javascript" src="/arquivos/jquery.jcarousel.min.js"></script>
+<!--<script type="text/javascript" src="/arquivos/jquery.msCarousel-min.js"></script>
+<script type="text/javascript" src="/arquivos/jcarousellite_1.0.1.pack.js"></script>-->
+
+</head>
+
+<body>
+
+
+<div id="blackout" style="display:none;"></div>
+
+<!--<div id="sac"><a href="javascript:void(0);"><img src="/arquivos/sac.png" alt="" /></a></div>-->
+
+<vtex:template id="header" />
+
+<div id="global_slide_topo">
+
+    <div id="carousel_marcas">
+        <div id="mycarousel1" class="jcarousel-skin-tango">
+            <vtex:template id="sub-marcas" />
+        </div>
+    </div>
+
+</div><!-- global_slide_topo -->
+
+<div id="segura_tudo">
+    <div id="sub_marcas">
+            <div class="clear"></div>            
+	</div><!-- sub marcas -->   
+</div><!-- segura -->
+
+<div id="banners_topo">
+
+    <div id="slide">
+        <div id="mycarousel" class="jcarousel-skin-tango">
+            <div class="jcarousel-control">
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </div>
+            <ul>
+                <li><vtex:contentPlaceHolder id="banner-slide01" /></li>
+                <li><vtex:contentPlaceHolder id="banner-slide02" /></li>
+                <li><vtex:contentPlaceHolder id="banner-slide03" /></li>
+                <li><vtex:contentPlaceHolder id="banner-slide04" /></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="banner_topo_esquerda">
+        <vtex:contentPlaceHolder id="banner-topo-direita" />
+    </div><!-- banner_topo_esquerda -->
+    
+    <!-- NEWSLETTER -->
+    <vtex.cmc:newsletterOptIn/>
+    <!-- NEWSLETTER -->
+    
+</div><!-- banners_topo -->
+
+
+<div id="banner_vantagens">
+
+    <vtex:contentPlaceHolder id="banner-vantagens" />
+    
+</div><!-- banner vantagens -->
+
+
+<div id="produtos">
+    <div id="carousel_prateleira">
+       <div id="mycarousel2" class="mycarousel2 jcarousel-skin-tango">
+          <vtex:contentPlaceHolder id="ofertas-do-dia" />
+        </div>
+    </div>
+</div>
+
+
+<div id="produtos" class="Tab-Ofertas-especiais2">
+    <div id="content-abas2">
+        <ul class="ui-tabs-nav itens_abas">
+            <li class="ui-state-default ui-tabs-selected"><a href="#aro13" class="aro13 bt primeiro">Aro 13</a></li>
+            <li class="ui-state-default"><a href="#aro14" class="aro14 bt">Aro 14</a></li>
+            <li class="ui-state-default"><a href="#aro15" class="aro15 bt">Aro 15</a></li>
+            <li class="ui-state-default"><a href="#aro16" class="aro16 bt">Aro 16</a></li>
+            <li class="ui-state-default"><a href="#aro17" class="aro17 bt">Aro 17</a></li>
+            <li class="ui-state-default"><a href="#aro18" class="aro18 bt">Aro 18</a></li>
+            <li class="ui-state-default"><a href="#aro19" class="aro19 bt">Aro 19</a></li>
+            <li class="ui-state-default"><a href="#aro20" class="aro20 bt">Aro 20</a></li>
+        </ul>
+    </div>
+    <div class="conteudo-aba2 primeira" id="aro13">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro13" />
+            </div>
+        </div>
+    </div>
+    <div class="conteudo-aba2" id="aro14">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro14" />
+            </div>
+        </div>
+    </div>
+    <div class="conteudo-aba2" id="aro15">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro15" />
+            </div>
+        </div>
+    </div>
+    <div class="conteudo-aba2" id="aro16">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro16" />
+            </div>
+        </div>
+    </div>
+    <div class="conteudo-aba2" id="aro17">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro17" />
+            </div>
+        </div>
+    </div>
+    <div class="conteudo-aba2" id="aro18">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro18" />
+            </div>
+        </div>
+    </div>
+    <div class="conteudo-aba2" id="aro19">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro19" /> 
+            </div>
+        </div>
+    </div>
+    <div class="conteudo-aba2" id="aro20">
+        <div id="carousel_prateleira">   
+            <div id="abas_aros" class="mycarousel2 jcarousel-skin-tango">
+                <vtex:contentPlaceHolder id="Colecao-Aro20" />  
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="banner_vantagens">
+    <vtex:contentPlaceHolder id="banner-vantagens-baixo" />
+</div><!-- banner vantagens -->
+
+
+
+<div id="produtos" class="Tab-Ofertas-especiais">
+    <h2>Compre por marca</h2>
+	<div id="content-abas">
+        <ul class="ui-tabs-nav itens_abas">
+            <li class="ui-state-default ui-tabs-selected"><a href="#marca1" class="bt primeiro"><img src="/arquivos/1-pireli.jpg" alt="pirelli" title="pirelli"/></a></li>
+            <li class="ui-state-default"><a href="#marca2" class="bt"><img src="/arquivos/2-bridgestone.jpg" alt="bridgestone" title="bridgestone"/></a></li>
+            <li class="ui-state-default"><a href="#marca3" class="bt"><img src="/arquivos/3-kumho.jpg" alt="kumho" title="kumho"/></a></li>
+            <li class="ui-state-default"><a href="#marca4" class="bt"><img src="/arquivos/4-goodyear.jpg" alt="goodyear" title="goodyear"/></a></li>
+            <li class="ui-state-default"><a href="#marca5" class="bt"><img src="/arquivos/5-continental.jpg" alt="continental" title="continental"/></a></li>
+        </ul>
+    </div>
+    <div class="conteudo-aba primeira" id="marca1">
+        <vtex:contentPlaceHolder id="pireli" />
+    </div>
+    <div class="conteudo-aba" id="marca2">
+        <vtex:contentPlaceHolder id="pireli2" />
+    </div>
+    <div class="conteudo-aba" id="marca3">
+        <vtex:contentPlaceHolder id="pireli3" />
+    </div>
+    <div class="conteudo-aba" id="marca4">
+        <vtex:contentPlaceHolder id="pireli4" />
+    </div>
+    <div class="conteudo-aba" id="marca5">
+        <vtex:contentPlaceHolder id="pireli5" />
+    </div>
+</div>
+
+
+<div id="nuvem">
+
+<h2>Nuvem de Tags</h2>
+
+<vtex.cmc:latestSearchesTagCloud/>
+
+</div><!-- nuvem -->
+<div class="history" style="display:none;"><vtex.cmc:navigationHistory /></div>
+
+<div id="global_dicas">
+    <div id="dicas">
+        <vtex:contentPlaceHolder id="dicas" />
+    </div>
+</div>
+
+
+<vtex:template id="footer" />
+
+</body>
+</html>

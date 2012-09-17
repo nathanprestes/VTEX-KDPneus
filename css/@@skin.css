@@ -1,0 +1,17 @@
+.Tab-Ofertas-especiais .jcarousel-container{}
+.Tab-Ofertas-especiais .jcarousel-direction-rtl{direction: rtl;}
+.Tab-Ofertas-especiais .jcarousel-container-horizontal{/*width: 245px;padding: 20px 40px;*/}
+.Tab-Ofertas-especiais .jcarousel-clip{overflow: hidden;}
+.Tab-Ofertas-especiais .jcarousel-clip-horizontal{width:  245px;height: 75px;}
+.Tab-Ofertas-especiais .jcarousel-item{width: 75px;height: 75px;}
+.Tab-Ofertas-especiais .jcarousel-item-horizontal{margin-left: 0;margin-right: 10px;}
+.Tab-Ofertas-especiais .jcarousel-direction-rtl .jcarousel-item-horizontal{margin-left: 10px;margin-right: 0;}
+.Tab-Ofertas-especiais .jcarousel-item-placeholder{background: #fff;color: #000;}
+.Tab-Ofertas-especiais .jcarousel-next-horizontal{position: absolute;top: 50%;right: 5px;width: 23px;height: 28px;cursor: pointer;background: transparent url(setas_marcas22.jpg) no-repeat -25px -53px;}
+.Tab-Ofertas-especiais .jcarousel-next-horizontal:hover, .Tab-Ofertas-especiais .jcarousel-next-horizontal:focus{background-position:-25px 0;}
+.Tab-Ofertas-especiais .jcarousel-next-horizontal:active{background-position:-25px 0;}
+.Tab-Ofertas-especiais .jcarousel-next-disabled-horizontal, .Tab-Ofertas-especiais .jcarousel-next-disabled-horizontal:hover, .Tab-Ofertas-especiais .jcarousel-next-disabled-horizontal:focus, .Tab-Ofertas-especiais .jcarousel-next-disabled-horizontal:active{cursor: default;background:none;}
+.Tab-Ofertas-especiais .jcarousel-prev-horizontal{position: absolute;top: 50%;left: 5px;width: 23px;height: 28px;cursor: pointer;background: transparent url(setas_marcas22.jpg) no-repeat -1px -53px;}
+.Tab-Ofertas-especiais .jcarousel-prev-horizontal:hover, .Tab-Ofertas-especiais .jcarousel-prev-horizontal:focus {background-position:-1px 0;}
+.Tab-Ofertas-especiais .jcarousel-prev-horizontal:active{background-position:-1px 0;}
+.Tab-Ofertas-especiais .jcarousel-prev-disabled-horizontal, .Tab-Ofertas-especiais .jcarousel-prev-disabled-horizontal:hover, .Tab-Ofertas-especiais .jcarousel-prev-disabled-horizontal:focus, .Tab-Ofertas-especiais .jcarousel-prev-disabled-horizontal:active{cursor: default;background:none;}
